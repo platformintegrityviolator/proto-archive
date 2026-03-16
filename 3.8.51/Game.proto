@@ -21728,6 +21728,7 @@ message GateServer {
     string mdk_res_version = 1321;
     string ifix_version = 1865;
     uint32 retcode = 7;
+	bool use_tcp = 175;
 }
 
 message GateServerScNotify {
